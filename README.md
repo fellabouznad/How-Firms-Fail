@@ -4,7 +4,7 @@ All the code for the MPhil Thesis of Fella Bouznad. The notebooks are ordered so
 ## Repository structure
 
 ```text
-.
+
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_failure_trajectories.ipynb
