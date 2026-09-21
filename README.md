@@ -13,8 +13,7 @@ All the code for the MPhil Thesis of Fella Bouznad. The notebooks are ordered so
 │   ├── raw/
 │   └── processed/
 ├── results/
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ## Notebook order
