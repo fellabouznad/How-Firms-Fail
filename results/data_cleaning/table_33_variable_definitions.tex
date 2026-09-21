@@ -1,0 +1,21 @@
+\begin{table}
+\caption{Definition and role of the main empirical variables.}
+\label{tab:variable_definitions}
+\begin{tabular}{llll}
+\toprule
+Variable & Concept & Definition & Role \\
+\midrule
+roa\_clean & Profitability & Net income / total assets; Annual Report source preferred, REACH ratio used as fallback. & FDI component (sign reversed) \\
+leverage\_clean & Solvency & Leverage from Annual Report data; REACH total liabilities / total assets used as fallback. & FDI component \\
+current\_ratio\_clean & Liquidity & Current assets / current liabilities; constructed within source before fallback. & FDI component (sign reversed) \\
+equity\_ratio\_clean & Capitalization & Equity / total assets; Annual Report source preferred, REACH ratio used as fallback. & FDI component (sign reversed) \\
+FDI & Financial distress & Mean of the available year-standardized distress components; at least 3 of 4 required. & Main composite distress measure \\
+FDI\_complete4 & Financial distress & Same FDI construction, restricted to firm-years with all four components. & Missingness robustness check \\
+FDI\_without\_leverage & Financial distress & Mean of profitability, liquidity, and capitalization distress; at least 2 of 3 required. & Leverage-dominance robustness check \\
+primary\_failure\_event & Failure & One in a firm-year with bankruptcy or a severe reporting failure. & Main empirical outcome \\
+severe\_reporting\_failure\_event & Reporting failure & Article 362(6) restatement or restatement without a modified audit opinion. & Component of primary failure \\
+annual\_report\_missing & Data availability & One when the Annual Report record is not observed for a firm-year on the merged grid. & Missingness diagnostic; not treated as failure \\
+delayed\_filing\_event & Reporting timeliness & Observed late/too-late filing indicator where filing-delay information is available. & Separate reporting diagnostic; not included in main FDI \\
+\bottomrule
+\end{tabular}
+\end{table}
