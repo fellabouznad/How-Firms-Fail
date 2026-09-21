@@ -6,7 +6,7 @@ All the code for the MPhil Thesis of Fella Bouznad. The notebooks are ordered so
 ```text
 
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
+│   ├── data_cleaning.ipynb
 │   ├── 02_failure_trajectories.ipynb
 │   └── 03_simulation.ipynb
 ├── data/
