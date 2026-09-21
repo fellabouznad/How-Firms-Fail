@@ -10,7 +10,9 @@ All the code for the MPhil Thesis of Fella Bouznad. The notebooks are ordered so
 │   ├── 02_failure_trajectories.ipynb
 │   └── 03_simulation.ipynb
 ├── results/
-│   └── data_cleaning/
+│   ├── data_cleaning/
+│   ├── failure_trajectories/
+│   └── simulations/
 └── requirements.txt
 ```
 
